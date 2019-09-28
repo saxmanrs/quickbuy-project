@@ -66,6 +66,9 @@ namespace QuickBay.Web
                     //spa.UseAngularCliServer(npmScript: "start");
 
                     spa.UseProxyToSpaDevelopmentServer(" http://localhost:4200/");
+                    // treste de commit
+
+
                 }
             });
         }
