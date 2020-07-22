@@ -10,6 +10,9 @@ namespace QuickBay.Dominio.Entidade
         public int Id_pedido { get; set; }
         public DateTime DataPedido { get; set; }
         public int IdUsuario { get; set; }
+        
+        public DateTime DataEntrega { get; set; }
+      
 
         public ICollection<ItemPedido> ItensPedidos { get; set; }
 
